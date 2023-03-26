@@ -1,5 +1,5 @@
-#include<bits/stdc++.h>
-using namespace std;
+// #include<bits/stdc++.h>
+// using namespace std;
 int leftShift(int n)
 {
     int temp;
@@ -13,10 +13,9 @@ int leftShift(int n)
         fact*=10;
     }
     return leftShift+n;
-
 }
-int main()
-{
-    cout<<leftShift(123456);
-    return 0;
-}
+// int main()
+// {
+//     cout<<leftShift(123456);
+//     return 0;
+// }
