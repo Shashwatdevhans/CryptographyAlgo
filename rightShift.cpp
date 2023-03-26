@@ -1,5 +1,5 @@
-#include<bits/stdc++.h>
-using namespace std;
+// #include<bits/stdc++.h>
+// using namespace std;
 int rightShift(int n)
 {
     int temp=n%10;
@@ -13,14 +13,14 @@ int rightShift(int n)
     temp*=fact;
     return temp+rightShift;
 }
-int main()
-{
-    int n=5;
-    int r=1234;
-    for(int i=0;i<n;i++)
-    {
-        r=rightShift(r);
-        cout<<r<<endl;
-    }
-    return 0;
-}
+// int main()
+// {
+//     int n=5;
+//     int r=1234;
+//     for(int i=0;i<n;i++)
+//     {
+//         r=rightShift(r);
+//         cout<<r<<endl;
+//     }
+//     return 0;
+// }
